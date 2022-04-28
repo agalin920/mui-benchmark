@@ -173,19 +173,6 @@ async function run() {
         name: 'Styled MUI',
         path: './styled-material-ui/index.js',
       },
-      {
-        name: 'Styled emotion',
-        path: './styled-emotion/index.js',
-      },
-      {
-        name: 'Styled SC',
-        path: './styled-sc/index.js',
-      },
-      // Test the performance compared to the v4 standard
-      {
-        name: 'makeStyles',
-        path: './make-styles/index.js',
-      },
       // Test the Box perf with alternatives
       {
         name: 'Box Baseline',
@@ -194,23 +181,6 @@ async function run() {
       {
         name: 'Box MUI',
         path: './box-material-ui/index.js',
-      },
-      {
-        name: 'Box Theme-UI',
-        path: './box-theme-ui/index.js',
-      },
-      {
-        name: 'Box Chakra-UI',
-        path: './box-chakra-ui/index.js',
-      },
-      // Test the system perf difference with alternatives
-      {
-        name: 'styled-components Box + @mui/system',
-        path: './styled-components-box-material-ui-system/index.js',
-      },
-      {
-        name: 'styled-components Box + styled-system',
-        path: './styled-components-box-styled-system/index.js',
       },
     ];
 

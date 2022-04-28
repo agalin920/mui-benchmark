@@ -3,12 +3,7 @@
   "version": "5.0.0",
   "private": true,
   "scripts": {
-    "browser": "yarn webpack --config browser/webpack.config.js && node browser/scripts/benchmark.js",
-    "server:core": "cd ../ && cross-env NODE_ENV=production BABEL_ENV=benchmark babel-node benchmark/server/scenarios/core.js --inspect=0.0.0.0:9229 --extensions \".tsx,.ts,.js\"",
-    "server:docs": "cd ../ && cross-env NODE_ENV=production BABEL_ENV=benchmark babel-node benchmark/server/scenarios/docs.js --inspect=0.0.0.0:9229 --extensions \".tsx,.ts,.js\"",
-    "server:server": "cd ../ && cross-env NODE_ENV=production BABEL_ENV=benchmark babel-node benchmark/server/scenarios/server.js --inspect=0.0.0.0:9229 --extensions \".tsx,.ts,.js\"",
-    "server:styles": "cd ../ && cross-env NODE_ENV=production BABEL_ENV=benchmark babel-node benchmark/server/scenarios/styles.js --inspect=0.0.0.0:9229 --extensions \".tsx,.ts,.js\"",
-    "server:system": "cd ../ && cross-env NODE_ENV=production BABEL_ENV=benchmark babel-node benchmark/server/scenarios/system.js --inspect=0.0.0.0:9229 --extensions \".tsx,.ts,.js\""
+    "browser": "yarn webpack --config browser/webpack.config.js && node browser/scripts/benchmark.js"
   },
   "dependencies": {
     "@chakra-ui/system": "^1.12.1",
