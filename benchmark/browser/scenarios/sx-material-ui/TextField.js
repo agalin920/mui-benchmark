@@ -1,11 +1,13 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import { ITEM_COUNT } from '../constants';
 
-export default function SxPropBoxMaterialUI() {
+export default function SxPropTextFieldMaterialUI() {
   return (
     <React.Fragment>
-      {new Array(1000).fill().map(() => (
-        <Box
+      {new Array(ITEM_COUNT).fill().map(() => (
+        <TextField
+          placeholder="test case"
           sx={{
             width: 200,
             height: 200,
@@ -17,9 +19,7 @@ export default function SxPropBoxMaterialUI() {
               backgroundColor: (theme) => theme.palette.secondary.dark,
             },
           }}
-        >
-          test case
-        </Box>
+        />
       ))}
     </React.Fragment>
   );

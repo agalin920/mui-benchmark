@@ -154,33 +154,61 @@ async function run() {
         name: 'noop (baseline)',
         path: './noop/index.js',
       },
-      {
-        name: 'Table',
-        path: './table-cell/index.js',
-      },
+      // {
+      //   name: 'Table',
+      //   path: './table-cell/index.js',
+      // },
       // Test the cost of React primitives
       {
-        name: 'React primitives',
-        path: './primitives/index.js',
+        name: 'React primitives - Div',
+        path: './primitives/Div.js',
+      },
+      {
+        name: 'React primitives - Button',
+        path: './primitives/Button.js',
+      },
+      {
+        name: 'React primitives - Input',
+        path: './primitives/Input.js',
       },
       // Test the cost of React components abstraction
       {
-        name: 'React components',
-        path: './components/index.js',
-      },
-      // Test that @mui/styled-engine doesn't add an signifiant overhead
-      {
-        name: 'Styled MUI',
-        path: './styled-material-ui/index.js',
-      },
-      // Test the Box perf with alternatives
-      {
-        name: 'Box Baseline',
-        path: './box-baseline/index.js',
+        name: 'React components - Div',
+        path: './components/Div.js',
       },
       {
-        name: 'Box MUI',
-        path: './box-material-ui/index.js',
+        name: 'React components - Button',
+        path: './components/Button.js',
+      },
+      {
+        name: 'React components - Input',
+        path: './components/Input.js',
+      },
+      // Test that @mui/styled-engine doesn't add an significant overhead
+      {
+        name: 'Styled MUI - Box',
+        path: './styled-material-ui/Box.js',
+      },
+      {
+        name: 'Styled MUI - Button',
+        path: './styled-material-ui/Button.js',
+      },
+      {
+        name: 'Styled MUI - TextField',
+        path: './styled-material-ui/TextField.js',
+      },
+      // Test that sx prop doesn't add an significant overhead
+      {
+        name: 'Sx MUI - Box',
+        path: './sx-material-ui/Box.js',
+      },
+      {
+        name: 'Sx MUI - Button',
+        path: './sx-material-ui/Box.js',
+      },
+      {
+        name: 'Sx MUI - TextField',
+        path: './sx-material-ui/TextField.js',
       },
     ];
 
