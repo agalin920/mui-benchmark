@@ -35,7 +35,7 @@ function createServer(options) {
 
 async function createBrowser() {
   const browser = await playwright.chromium.launch();
-
+  
   return {
     openPage: async (url) => {
       const page = await browser.newPage();

@@ -1,1 +1,1 @@
-export const ITEM_COUNT = 1000;
+export const ITEM_COUNT = 10000;
