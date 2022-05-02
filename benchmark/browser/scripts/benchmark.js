@@ -175,6 +175,10 @@ async function run() {
         name: 'React primitives - Select',
         path: './primitives/Select.js',
       },
+      {
+        name: 'React primitives - Select Options',
+        path: './primitives/SelectOptions.js',
+      },
       // Test the cost of React components abstraction
       {
         name: 'React components - Div',
@@ -191,6 +195,10 @@ async function run() {
       {
         name: 'React components - Select',
         path: './components/Select.js',
+      },
+      {
+        name: 'React components - Select Options',
+        path: './components/SelectOptions.js',
       },
       // Test that @mui/styled-engine doesn't add an significant overhead
       {
@@ -209,6 +217,10 @@ async function run() {
         name: 'Styled MUI - Select',
         path: './styled-material-ui/Select.js',
       },
+      {
+        name: 'Styled MUI - Select Options',
+        path: './styled-material-ui/SelectOptions.js',
+      },
       // Test that sx prop doesn't add an significant overhead
       {
         name: 'Sx MUI - Box',
@@ -225,6 +237,10 @@ async function run() {
       {
         name: 'Sx MUI - Select',
         path: './sx-material-ui/Select.js',
+      },
+      {
+        name: 'Sx MUI - Select Options',
+        path: './sx-material-ui/SelectOptions.js',
       },
     ];
 
